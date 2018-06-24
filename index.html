@@ -1,4 +1,4 @@
-	﻿<!DOCTYPE html>
+﻿	﻿<!DOCTYPE html>
 <html>
 
 <head>
@@ -6,7 +6,46 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width initial=scale-1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<style>
+	
+	<style>
+	body {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	background-color: #1a1a1a;
+	font-family: Arial;
+}
+#content {
+	background-color: #1a1a1a;
+	padding: 60px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #b6fce9;
+	font-size: 22px;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #f2f2f2;
+	text-decoration: none;
+}
+.active {
+	background-color: black;
+	color: white;
+}
 h1 {
 	font-size: 150px;
 	letter-spacing: 4px;
@@ -26,15 +65,16 @@ img {
 	margin-right: auto;
 	}
 	body {
-		background-color: white;
+		background-color: #121212;
 		margin: 30px;
 		font-size: 30px;
 		}
 
-		.sz{
-		color:#262626;
-		font-size:20px;
+	.sz{
+		color: #262626;
+		font-size:23px;
 		font-family: sans-serif;
+		text-align: center;
 		}
 .valami {
 	margin-top: 30px;
@@ -42,25 +82,27 @@ img {
 	text-align: justify;
 	font-size: 30px;
 	letter-spacing: 1.5px;
+	word-spacing: 3px;
 	color: #e6ffe6;
 	text-decoration: none;
+	}
 
 img:hover {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
 .text-center{
-background-color: #262626;
+	background-color: #262626;
 }
 
 marquee{
-text-align: center;
+	text-align: center;
 }
-footer{
-text-align: center;
-background-color: #262626;
-color: lightgreen;
-letter-spacing: 5px;
+	footer{
+	text-align: center;
+	background-color: #262626;
+	color: lightgreen;
+	letter-spacing: 5px;
 }
 p {
 	letter-spacing: 7px;
@@ -71,31 +113,55 @@ p {
 	letter-spacing: 7px;
 	word-spacing: 5px;
 	margin: 30px;
+
 }
+.morsepiccc3 {
+	float: center;
+	}
+	.mainpic {
+    border-radius: 50%;
+}
+.imgimg:hover {
+		transform: none;
+		}
+
 </style>
 </head>
 
 <body>
 
-	<div class="jumbotron text-center">
-	<marquee class="sz" bgcolor="lightgreen" color="#262626" direction="down"  width="600px" height="100px" scrollammount="3">Samu András <br> Nemes Attila</marquee>
-	<marquee class="sz" bgcolor="white" color="#262626" direction="up" width="200px" height="100px" scrollamount="3">Flaisz Vanda <br> Csorbák András</marquee>
-	<marquee class="sz" bgcolor="lightgreen" color="#262626" direction="down"  width="600px" height="100px" scrollammount="3">Varga Anna <br> Herman Lili</marquee>
+	<div id="nav_menu">
+	<ul>
+			<li><a class="active" href="index.html">Főoldal</a></li>
+			<li><a href="Zitdata.html">Morzézz</a></li>
+			<li><a href="Creators.html">KibuZZdIT</a></li>
+			
+		</ul>
 	</div>
-<div class="row">
-	<div class="col-sm-3"><img src="logo.png">
-	</div>
-	<div class="col-sm-6"><img src="zzitpic2.png" width="300"></div>
-	<div class="col-sm-3"><img src="logo.png">
-	</div>
-</div>
+
+	<div id="content">
+		
+	
+
 
 	<div class="container">
+	<div class="row">
+	<div class="col-sm-3"><img src="zzitpic2.png" width="300">
+	</div>
+	<div class="col-sm-6"><img class="imgimg" src="logo.png"></div>
+	<div class="col-sm-3"><img src="zzitpic2.png" width="300"></div>
+</div>
 <div class="row">
 	<div class="col-sm-10">
 		<br>
-	<img src="zitpic.jpg" width="1140px" height="700px"></div>
+	<div class="mainpic"><img src="zitpic.jpg" width="1140px" height="700px"></div></div>
 </div>
+<br><br>
+<div class="jumbotron text-center">
+	<marquee class="sz" bgcolor="#b6fce9" color="#262626" direction="down" width="350px" height="100px" scrollammount="3">Samu András <br> Nemes Attila</marquee>
+	<marquee class="sz" bgcolor="white" color="#262626" direction="up" width="300px" height="100px" scrollamount="3">Flaisz Vanda <br> Csorbák András</marquee>
+	<marquee class="sz" bgcolor="#b6fce9" color="#262626" direction="down"  width="350px" height="100px" scrollammount="3">Varga Anna <br> Herman Lili</marquee>
+	</div>
 
 <div class="row">
 		<div class="col-sm-2"></div>
@@ -105,22 +171,25 @@ p {
 </div>
 </div>
 
-
+<br>
 
 
 <div class="container">
 	<div class="row">
-		<div class="col-sm-6"><img src="morsepiccc3.jpg" width="205%" height="40%">
+		<div class="col-sm-6"><div class="morsepiccc3"><img src="morsepiccc3.jpg" width="206%" height="50%"></div>
 	</div>
 	<div class="col-sm-6"></div>
 </div>
 </div>
-
+<br>
 <div class="container">
-	<footer>All rights reserved.</footer>
 <hr>
-</div>
+	<footer>All rights reserved.</footer>
 
+</div>
+</div>
+		
+	
 </body>
 
 </html>
